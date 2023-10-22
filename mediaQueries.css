@@ -176,4 +176,9 @@
   .text-container {
     text-align: justify;
   }
+  a:hover {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+  }
 }
