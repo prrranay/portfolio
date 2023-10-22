@@ -348,11 +348,6 @@ article .icon {
     cursor: default;
 }
 
-.arrow2 {
-    position: absolute;
-    right: 5rem;
-}
-
 /* project */
 #project {
     position: relative;
@@ -421,10 +416,17 @@ article .icon {
 
 /* footer */
 
-footer{
+footer {
     height: 26vh;
     margin: 0.1rem;
 }
-footer p{
+
+footer p {
     text-align: center;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
 }
