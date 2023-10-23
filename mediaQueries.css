@@ -181,4 +181,7 @@
     text-decoration: none;
     text-decoration-color: white;
   }
+    #element{
+    font-size: 2.5rem;
+  }
 }
