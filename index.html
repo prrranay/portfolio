@@ -48,7 +48,8 @@
             </div>
             <div class="section-text">
                 <p class="section-text-p1">Hello, i'm</p>
-                <h1 class="title">Pranay Kumar</h1>
+                <!--<h1 class="title">Pranay Kumar</h1> -->
+                <span id="element"></span>
                 <p class="section-text-p2">Frontend Develoveper</p>
                 <div class="btn-container">
                     <button class="btn btn-color2" onclick="window.open('./Assets/resume-example.pdf')"> Download
@@ -229,6 +230,12 @@
         <p>Copyright &#169; 2023 Pranay Kumar. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('#element', {
+      strings: [' ', 'Pranay Kumar'],
+      typeSpeed: 110,
+    });
 </body>
 
 </html>
