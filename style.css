@@ -192,6 +192,13 @@ section {
     margin-bottom: 1rem;
 }
 
+#element {
+    font-size: 3rem;
+    color: black;
+    font-weight: 999;
+    text-align: center;
+}
+
 .title {
     font-size: 3rem;
     text-align: center;
